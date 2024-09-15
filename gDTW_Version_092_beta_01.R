@@ -1512,7 +1512,7 @@ gdtw = function(method = 1){
    #process=1 : 데이터 내에 비교 가능한 모든 열을 비교한다. 
    
    #rm(list=ls())
-   method = 8; process = 0 ; refer.col = 1; query.col = 2
+   method = 1; process = 0 ; refer.col = 1; query.col = 2
    
    # Default mode로 phase 구분 없이 데이터의 첫번째 열을 reference로 두번째 열을 query로 인식하여 처리한다.
    if(method == 1){  
